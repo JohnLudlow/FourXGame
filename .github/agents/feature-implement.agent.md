@@ -1,4 +1,4 @@
----
+﻿---
 description: Take a planned feature and implement it
 name: FeatureImplementer
 tools: ['vscode/runCommand', 'execute/runInTerminal', 'read', 'edit', 'search', 'web', 'agent', 'todo']
@@ -18,7 +18,11 @@ Walk the user through the required edits and work with them to complete the feat
 Relevant skills:
 - [feature-implement](../skills/feature-implement/SKILL.md)
 - [feature-doc-review](../skills/feature-doc-review/SKILL.md)
-
+- [implementation-doc-update](../skills/implementation-doc-update/SKILL.md)
+- [implementation-doc-review](../skills/implementation-doc-review/SKILL.md)
+- [microsoft-code-reference](../skills/microsoft-code-reference/SKILL.md)
+- [microsoft-docs](../skills/microsoft-docs/SKILL.md)
+- [refactor](../skills/refactor/SKILL.md)
 
 The plan consists of a Markdown document (in the /docs/plans folder) in that describes the implementation plan, including the following sections:
 

@@ -1,4 +1,4 @@
----
+﻿---
 description: Generate documentation based on a current implementation in existing code.
 name: ImplementationDocumenter
 tools: ['vscode/runCommand', 'execute/runInTerminal', 'read', 'edit', 'search', 'web', 'agent', 'todo']
@@ -18,6 +18,9 @@ Relevant skills:
 - [feature-doc-review](../skills/feature-doc-review/SKILL.md)
 - [implementation-doc-update](../skills/implementation-doc-update/SKILL.md)
 - [implementation-doc-review](../skills/implementation-doc-review/SKILL.md)
+- [microsoft-code-reference](../skills/microsoft-code-reference/SKILL.md)
+- [microsoft-docs](../skills/microsoft-docs/SKILL.md)
+- [refactor](../skills/refactor/SKILL.md)
 
 The plan consists of a Markdown document (in the /docs/plans folder) in that describes the implementation plan, including the following sections:
 
