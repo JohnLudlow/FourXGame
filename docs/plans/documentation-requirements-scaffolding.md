@@ -16,7 +16,7 @@ Scope:
 - In scope: `docs/plans/4x-game.md` and everything under `docs/plans/4x-game/`.
 - Out of scope: code changes and non-plan documentation outside `docs/plans`.
 
-## Definition of terms
+## Definition of Terms
 
 | Term | Meaning | Reference |
 | ---- | ------- | --------- |
@@ -55,7 +55,7 @@ Scope:
     - Integration test ideas (when applicable).
     - Manual verification steps (when visual or gameplay validation is required).
 
-## Implementation steps
+## Implementation Steps
 
 1. **Inventory the current plan set**
    - List every markdown file under `docs/plans/4x-game.md` and `docs/plans/4x-game/`.
@@ -108,7 +108,7 @@ Scope:
      - Each requirement can be mapped to tests.
      - Terms are defined before use.
 
-## Implementation considerations
+## Implementation Considerations
 
 - **Readability and consistency**
   - Prefer shorter sentences and concrete wording.
@@ -140,7 +140,7 @@ These are documentation verification steps (not code tests):
 1. Link validation: run `scripts/check-doc-links.ps1` and fix any reported missing files or broken relative links.
 2. Markdown style validation: run `npx markdownlint-cli **/*.md` and fix any issues in `docs/plans`.
 3. Human review checklist (for each plan):
-   - All non-plain-English terms used in the plan appear in “Definition of terms”.
+   - All non-plain-English terms used in the plan appear in “Definition of Terms”.
    - Requirements are written in Given/When/Then form.
    - Implementation steps are ordered and actionable.
    - Testing section lists unit, integration (if applicable), and manual verification steps.

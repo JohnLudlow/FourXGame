@@ -6,6 +6,8 @@ This is the broad plan for the development of the 4x Game project.
 
 ## Table of contents
 
+- [Product requirements (PRD scaffold)](./4x-game-prd.md)
+
 - Gameplay Systems
   - [Onboarding and tutorial system](./4x-game/systems/onboarding.md)
   - [Mapping system](./4x-game/systems/mapping.md)
@@ -151,6 +153,8 @@ public int SelectNextCell(/* params */)
 ```
 
 ## See also
+
+- [Product requirements (PRD scaffold)](./4x-game-prd.md)
 
 For large plans that are split across multiple files, a list of links to those files.
 
