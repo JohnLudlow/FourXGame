@@ -28,6 +28,8 @@ TODO:
 
 A list of features this project provides.
 
+[See the detailed plan](./docs/plans/4x-game.md)
+
 - Procedural map generation
   - Tile-based using wave function collapse
 

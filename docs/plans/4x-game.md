@@ -2,11 +2,32 @@
 
 ## Overview
 
-Detailed description of the feature including purpose and intent as well as intended use cases
+This is the broad plan for the development of the 4x Game project.
 
 ## Table of contents
 
-- Table of contents with links to child sections, including subsections and child documents (which will be in a folder matching the feature document name).
+- Gameplay Systems
+  - [Onboarding and tutorial system](./4x-game/systems/onboarding.md)
+  - [Mapping system](./4x-game/systems/mapping.md)
+    - [Pathfinding and navigation](./4x-game/systems/mapping/pathfinding.md)
+  - [Characters system](./4x-game/systems/characters.md)
+    - [AI, character motivations and character needs](./4x-game/systems/character-ai/characters.md)
+  - [Factions system](./4x-game/systems/factions.md)
+  - [Combat and battle system](./4x-game/systems/combat.md)
+  - [Resource system](./4x-game/systems/resources.md)
+
+- Game Operation
+  - [Saving, autosaves, and game management](./4x-game/technical/saving.md)
+  - [Graphics and camera viewpoint](./4x-game/technical/graphics.md)
+  - [Audio and music](./4x-game/technical/audio.md)
+  - [Controls](./4x-game/technical/controls.md)
+
+- Technical Systems
+  - [Performance monitoring](./4x-game/technical/performance.md)
+  - [Engine selection](./4x-game/technical/engine-selection.md)
+  - [Engine decoupling](./4x-game/technical/engine-decoupling.md)
+  - [Platform support](./4x-game/technical/platform.md)
+  - [Diagnostics](./4x-game/technical/diagnostics.md)
 
 ## Feature status
 
@@ -20,10 +41,12 @@ If the feature is composed of multiple parts and some are implemented, list the 
 
 Detailed table (sorted alphabetically by the term) of terms not considered 'common english'. Include references to articles about the term.
 
-| Term | Meaning | Reference |
-| ---- | ------- | --------- |
-|      |         |           |
-|      |         |           |
+| Term | Meaning                                                             | Reference                          |
+| ---- | ------------------------------------------------------------------- | ---------------------------------- |
+| 4x   | Explore, Expand, Exploit, Exterminate. A subgenre of strategy games | [4x article on Wikipedia][4x-wiki] |
+|      |                                                                     |                                    |
+
+[4x-wiki]: https://en.wikipedia.org/wiki/4X#Real-time_hybrid_4X
 
 ## Architectural considerations and constraints
 
@@ -142,6 +165,29 @@ This section will contain a table of contents with links to those child plans
 This structure is repeated as deep as is needed.
 
 This section will also contain links to related/sibling plans by topic and parent plans by structure.
+
+- Gameplay Systems
+  - [Onboarding and tutorial system](./4x-game/systems/onboarding.md)
+  - [Mapping system](./4x-game/systems/mapping.md)
+    - [Pathfinding and navigation](./4x-game/systems/mapping/pathfinding.md)
+  - [Characters system](./4x-game/systems/characters.md)
+    - [AI, character motivations and character needs](./4x-game/systems/character-ai/characters.md)
+  - [Factions system](./4x-game/systems/factions.md)
+  - [Combat and battle system](./4x-game/systems/combat.md)
+  - [Resource system](./4x-game/systems/resources.md)
+
+- Game Operation
+  - [Saving, autosaves, and game management](./4x-game/technical/saving.md)
+  - [Graphics and camera viewpoint](./4x-game/technical/graphics.md)
+  - [Audio and music](./4x-game/technical/audio.md)
+  - [Controls](./4x-game/technical/audio.md)
+
+- Technical Systems
+  - [Performance monitoring](./4x-game/technical/performance.md)
+  - [Engine selection](./4x-game/technical/engine-selection.md)
+  - [Engine decoupling](./4x-game/technical/engine-decoupling.md)
+  - [Platform support](./4x-game/technical/platform.md)
+  - [Diagnostics](./4x-game/technical/diagnostics.md)
 
 ## References
 
