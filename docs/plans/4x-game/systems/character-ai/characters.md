@@ -1,5 +1,9 @@
 # Character AI, Motivations and Needs
 
+## Overview
+
+AI controlling NPC characters implements motivations and needs that guide decisions: ambition, loyalty, survival, expansion. These drive faction formation, diplomacy and warfare.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-AI controlling NPC characters implements motivations and needs that guide decisions: ambition, loyalty, survival, expansion. These drive faction formation, diplomacy and warfare.
-
 ## Definition of terms
 
 - Motivation: a high-level driver (e.g., expansion, security).
@@ -24,6 +24,8 @@ AI controlling NPC characters implements motivations and needs that guide decisi
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

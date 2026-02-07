@@ -4,6 +4,27 @@
 
 Non-blocking side panel notifications provide contextual guidance without interrupting gameplay. Inspired by Rise of Nations, this system delivers tips, suggestions, and tutorial content at the screen edge while allowing players to continue interacting with the game.
 
+## Table of contents
+
+- [Overview](#overview)
+- [Design Principles](#design-principles)
+- [Use Cases](#use-cases)
+- [UI Specification](#ui-specification)
+- [Behavior Specification](#behavior-specification)
+- [Content Types](#content-types)
+- [Technical Requirements](#technical-requirements)
+
+## Feature status
+
+Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
+
+## Definition of terms
+
+- Side Panel: A non-blocking UI panel used to present context-sensitive guidance.
+- Sequence: A multi-step tutorial progression shown through side panels.
+
 ## Design Principles
 
 - **Non-Blocking**: Game continues while panel is visible

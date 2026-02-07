@@ -1,5 +1,9 @@
 # Performance Monitoring
 
+## Overview
+
+Performance monitoring and profiling strategy for CPU, memory and frame-time sensitive systems (pathfinding, AI, rendering, WFC generator).
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Performance monitoring and profiling strategy for CPU, memory and frame-time sensitive systems (pathfinding, AI, rendering, WFC generator).
-
 ## Definition of terms
 
 - Profiling: measurement and analysis of runtime performance.
@@ -23,6 +23,8 @@ Performance monitoring and profiling strategy for CPU, memory and frame-time sen
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

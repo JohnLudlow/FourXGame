@@ -4,6 +4,27 @@
 
 The contextual help system provides comprehensive in-game documentation accessible via "?" buttons throughout the UI. It features context-sensitive topic suggestions, search functionality, and "Show Me How" interactive demonstrations that guide players without leaving the game.
 
+## Table of contents
+
+- [Overview](#overview)
+- [Design Principles](#design-principles)
+- [Use Cases](#use-cases)
+- [UI Specification](#ui-specification)
+- [Content Organization](#content-organization)
+- [Search Functionality](#search-functionality)
+- [Show Me How](#show-me-how-interactive-demonstrations)
+
+## Feature status
+
+Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
+
+## Definition of terms
+
+- Help Topic: A single article or page in the in-game help content.
+- Demo: An interactive "Show Me How" demonstration linked from help content.
+
 ## Design Principles
 
 - **Always Available**: "?" button on every major screen and UI panel

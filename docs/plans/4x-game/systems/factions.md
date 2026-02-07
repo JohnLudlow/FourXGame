@@ -1,5 +1,9 @@
 # Factions System
 
+## Overview
+
+Factions are led by characters and defined by their leaders' agendas. Multiple faction types exist: national, racial, religious, political, economic and cultural.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Factions are led by characters and defined by their leaders' agendas. Multiple faction types exist: national, racial, religious, political, economic and cultural.
-
 ## Definition of terms
 
 - National faction: player-controlled or peer political entity.
@@ -25,6 +25,8 @@ Factions are led by characters and defined by their leaders' agendas. Multiple f
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

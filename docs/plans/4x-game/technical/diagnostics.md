@@ -1,5 +1,9 @@
 # Diagnostics
 
+## Overview
+
+Runtime diagnostics for logging, error collection and developer tools to inspect simulation state during development and in the field.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Runtime diagnostics for logging, error collection and developer tools to inspect simulation state during development and in the field.
-
 ## Definition of terms
 
 - Diagnostics: tools and telemetry for understanding runtime behaviour.
@@ -23,6 +23,8 @@ Runtime diagnostics for logging, error collection and developer tools to inspect
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

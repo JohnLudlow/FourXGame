@@ -1,5 +1,9 @@
 # Characters System
 
+## Overview
+
+Characters are central to the game: they can lead armies, govern cities, join councils, and gain traits from actions. Characters provide bonuses and have agendas that influence faction behaviour.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Characters are central to the game: they can lead armies, govern cities, join councils, and gain traits from actions. Characters provide bonuses and have agendas that influence faction behaviour.
-
 ## Definition of terms
 
 - Trait: a persistent modifier gained by characters through actions.
@@ -24,6 +24,8 @@ Characters are central to the game: they can lead armies, govern cities, join co
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

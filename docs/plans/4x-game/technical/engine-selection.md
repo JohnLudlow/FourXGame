@@ -1,5 +1,9 @@
 # Engine Selection
 
+## Overview
+
+Considerations for choosing a game engine or low-level rendering/input framework. Evaluate requirements for real-time 4x features and platform support.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Considerations for choosing a game engine or low-level rendering/input framework. Evaluate requirements for real-time 4x features and platform support.
-
 ## Definition of terms
 
 - Engine: runtime/framework providing rendering, input, physics and optionally networking.
@@ -23,6 +23,8 @@ Considerations for choosing a game engine or low-level rendering/input framework
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

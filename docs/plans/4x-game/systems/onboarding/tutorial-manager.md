@@ -4,6 +4,28 @@
 
 The tutorial manager is the core orchestration system that drives all tutorial content delivery. It listens to game events, tracks player progress, manages tutorial state, triggers appropriate delivery mechanisms (modals, side panels, highlights), and integrates analytics to measure effectiveness.
 
+## Table of contents
+
+- [Overview](#overview)
+- [Design Principles](#design-principles)
+- [System Architecture](#system-architecture)
+- [Tutorial Scripting Format](#tutorial-scripting-format)
+- [State Management](#state-management)
+- [Event System Integration](#event-system-integration)
+- [Delivery Mechanism Integration](#delivery-mechanism-integration)
+- [Analytics Integration](#analytics-integration)
+
+## Feature status
+
+Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
+
+## Definition of terms
+
+- Tutorial: a guided, interactive lesson introducing a feature.
+- Onboarding: a sequence of introductory tutorials, tips and UI highlights for new players.
+
 ## Design Principles
 
 ### User Experience Principles

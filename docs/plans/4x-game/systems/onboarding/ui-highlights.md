@@ -4,6 +4,26 @@
 
 UI highlights and enhanced tooltips draw player attention to relevant interface elements and provide rich, contextual information. This system combines visual emphasis (glows, pulses, overlays) with informative tooltips that include "Learn More" links to the help system.
 
+## Table of contents
+
+- [Overview](#overview)
+- [Design Principles](#design-principles)
+- [Use Cases](#use-cases)
+- [UI Highlight System](#ui-highlight-system)
+- [Enhanced Tooltip System](#enhanced-tooltip-system)
+- [Technical Requirements](#technical-requirements)
+
+## Feature status
+
+Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
+
+## Definition of terms
+
+- Tooltip: UI element showing brief information on hover.
+- Highlight: Visual emphasis applied to UI elements to draw attention.
+
 The UI can be used as a teaching tool in place of or supplementing tutorials.
 
 An example:

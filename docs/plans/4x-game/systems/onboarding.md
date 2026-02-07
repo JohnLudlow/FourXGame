@@ -267,17 +267,16 @@ Tutorial content covers five core gameplay areas using the above delivery mechan
    - Build tutorial progression state machine
    - Implement save/load for tutorial progress
 
-2. **UI Components**
    - Develop side panel notification component
    - Create modal popup component with accessibility features
    - Implement UI highlight/pulse system for element focus
    - Build enhanced tooltip system with "Learn More" functionality
 
-3. **Tutorial Content**
-   - Write tutorial scripts for 5 core systems
-   - Design interactive demonstrations for "Show Me How" features
-   - Create help documentation with context-sensitive linking
-   - Develop tutorial progression flows based on player actions
+2. **Tutorial Content**
+
+- Write tutorial scripts for 5 core systems
+- Create help documentation with context-sensitive linking
+- Develop tutorial progression flows based on player actions
 
 4. **Analytics Integration**
    - Implement event tracking for tutorial starts/completions

@@ -1,5 +1,9 @@
 # Graphics and Camera Viewpoint
 
+## Overview
+
+Graphics plan for camera, rendering choices, LOD and visual feedback for map and battles. Camera must support strategic overview and battlefield focus.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Graphics plan for camera, rendering choices, LOD and visual feedback for map and battles. Camera must support strategic overview and battlefield focus.
-
 ## Definition of terms
 
 - LOD: Level of Detail, for rendering optimization.
@@ -23,6 +23,8 @@ Graphics plan for camera, rendering choices, LOD and visual feedback for map and
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

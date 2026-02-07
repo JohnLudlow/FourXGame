@@ -1,5 +1,9 @@
 # Mapping System
 
+## Overview
+
+Procedural map generation and tile management. Map generation uses a tile-based approach; core technique: Wave Function Collapse (WFC). Maps must support in-map battles, dynamic destruction and changes arising from combat.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Procedural map generation and tile management. Map generation uses a tile-based approach; core technique: Wave Function Collapse (WFC). Maps must support in-map battles, dynamic destruction and changes arising from combat.
-
 ## Definition of terms
 
 - Wave Function Collapse (WFC): a procedural generation algorithm used to assemble tiled maps by constraint propagation.
@@ -24,6 +24,8 @@ Procedural map generation and tile management. Map generation uses a tile-based 
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

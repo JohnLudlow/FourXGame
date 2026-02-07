@@ -4,18 +4,29 @@
 
 Modal popups are blocking message boxes used sparingly for critical first-time actions and important game moments. They pause gameplay to ensure players don't miss crucial information.
 
-## Design Principles
+## Table of contents
 
-- **Use Sparingly**: Maximum 3 modal popups in first 30 minutes for beginners
-- **Respect Experience Level**: Minimize for intermediate, disable for expert (except major new features)
-- **Always Skippable**: Include "Don't show this again" option
-- **Rich Content**: Support images, icons, formatted text, and progress indicators
+- [Overview](#overview)
+- [Design Principles](#design-principles)
+- [Use Cases](#use-cases)
+- [UI Specification](#ui-specification)
+- [Behavior Specification](#behavior-specification)
+- [Multi-Step Tutorials](#multi-step-tutorials)
+- [Accessibility](#accessibility)
+
+## Feature status
+
+Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
+
+## Definition of terms
+
+## Design Principles
 
 ## Use Cases
 
 ### When to Use Modal Popups
-
-✅ **Critical First-Time Actions** (Beginners only)
 
 - First city founding
 - First combat encounter

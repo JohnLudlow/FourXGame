@@ -35,6 +35,7 @@ This is the broad plan for the development of the 4x Game project.
 
 Not started
 
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 May also include additional information such as reason for the feature being blocked.
 
 If the feature is composed of multiple parts and some are implemented, list the components and their status.

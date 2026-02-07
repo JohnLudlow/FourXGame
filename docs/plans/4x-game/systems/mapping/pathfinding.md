@@ -1,5 +1,9 @@
 # Pathfinding and Navigation
 
+## Overview
+
+Pathfinding and navigation for units on a tile-based map. Must support formations, dynamic obstacles, and joining relief forces during battles.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Pathfinding and navigation for units on a tile-based map. Must support formations, dynamic obstacles, and joining relief forces during battles.
-
 ## Definition of terms
 
 - A*: A common graph search algorithm for shortest paths, usable with heuristics on tile grids.
@@ -24,6 +24,8 @@ Pathfinding and navigation for units on a tile-based map. Must support formation
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

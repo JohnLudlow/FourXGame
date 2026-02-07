@@ -1,5 +1,9 @@
 # Saving, Autosaves, and Game Management
 
+## Overview
+
+Persisting game state with support for manual saves, autosaves, and quicksaves. Save format should be versioned and robust against partial writes.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Persisting game state with support for manual saves, autosaves, and quicksaves. Save format should be versioned and robust against partial writes.
-
 ## Definition of terms
 
 - Autosave: periodic automatic save of game state.
@@ -24,6 +24,8 @@ Persisting game state with support for manual saves, autosaves, and quicksaves. 
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

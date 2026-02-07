@@ -1,5 +1,9 @@
 # Engine Decoupling
 
+## Overview
+
+Design guidelines to decouple game logic from engine-specific APIs to allow portability and easier testing. Keep simulation deterministic and engine-agnostic where possible.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Design guidelines to decouple game logic from engine-specific APIs to allow portability and easier testing. Keep simulation deterministic and engine-agnostic where possible.
-
 ## Definition of terms
 
 - Decoupling: separating game logic from engine/platform-specific code.
@@ -23,6 +23,8 @@ Design guidelines to decouple game logic from engine-specific APIs to allow port
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

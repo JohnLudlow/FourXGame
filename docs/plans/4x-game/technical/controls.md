@@ -1,5 +1,9 @@
 # Controls
 
+## Overview
+
+Controls plan covering input mappings for camera, unit selection, movement, and UI. Support for keyboard/mouse and gamepad where appropriate.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Controls plan covering input mappings for camera, unit selection, movement, and UI. Support for keyboard/mouse and gamepad where appropriate.
-
 ## Definition of terms
 
 - Hotkey: keyboard shortcut for common actions.
@@ -23,6 +23,8 @@ Controls plan covering input mappings for camera, unit selection, movement, and 
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

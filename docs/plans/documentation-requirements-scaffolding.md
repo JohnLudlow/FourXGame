@@ -16,6 +16,19 @@ Scope:
 - In scope: `docs/plans/4x-game.md` and everything under `docs/plans/4x-game/`.
 - Out of scope: code changes and non-plan documentation outside `docs/plans`.
 
+## Table of contents
+
+- [Overview](#overview)
+- [Definition of Terms](#definition-of-terms)
+- [Requirements](#requirements)
+- [Implementation Steps](#implementation-steps)
+
+## Feature status
+
+Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
+
 ## Definition of Terms
 
 | Term | Meaning | Reference |

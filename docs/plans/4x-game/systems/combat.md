@@ -1,5 +1,9 @@
 # Combat and Battle System
 
+## Overview
+
+Combat occurs on the main map (no separate battle map). Armies use formations; battles can change map state. Relief forces can join, and destruction affects terrain and tiles.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Combat occurs on the main map (no separate battle map). Armies use formations; battles can change map state. Relief forces can join, and destruction affects terrain and tiles.
-
 ## Definition of terms
 
 - Formation: organization of units (infantry centre, cavalry flanks).
@@ -24,6 +24,8 @@ Combat occurs on the main map (no separate battle map). Armies use formations; b
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

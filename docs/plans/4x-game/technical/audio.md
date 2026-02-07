@@ -1,5 +1,9 @@
 # Audio and Music
 
+## Overview
+
+Audio system for ambient music, battle stings, UI feedback and voice lines. Music and audio should adapt to game state (peace, war, victory/defeat).
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Audio system for ambient music, battle stings, UI feedback and voice lines. Music and audio should adapt to game state (peace, war, victory/defeat).
-
 ## Definition of terms
 
 - Ambience: background sounds contributing to atmosphere.
@@ -23,6 +23,8 @@ Audio system for ambient music, battle stings, UI feedback and voice lines. Musi
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 

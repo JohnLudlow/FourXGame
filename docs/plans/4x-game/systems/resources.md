@@ -1,5 +1,9 @@
 # Resource System
 
+## Overview
+
+Resource management includes physical resources (food, wood, stone, metals, gold, luxuries), magical resources and cultural resources. Resources drive city production, unit recruitment, and faction relations.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,10 +16,6 @@
 - [Acceptance criteria](#acceptance-criteria)
 - [Testing](#testing)
 
-## Overview
-
-Resource management includes physical resources (food, wood, stone, metals, gold, luxuries), magical resources and cultural resources. Resources drive city production, unit recruitment, and faction relations.
-
 ## Definition of terms
 
 - Physical resources: tangible items used for production and upkeep.
@@ -24,6 +24,8 @@ Resource management includes physical resources (food, wood, stone, metals, gold
 ## Feature status
 
 Not started
+
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 
 ## Implementation guide
 
