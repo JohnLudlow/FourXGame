@@ -7,6 +7,7 @@ Detailed description of the feature including purpose and intent as well as inte
 ## Table of contents
 
 - Table of contents with links to child sections, including subsections and child documents (which will be in a folder matching the feature document name).
+- Lists use `-` as a bullet point
 
 ## Feature status
 
@@ -42,6 +43,7 @@ Detailed model of the feature's architectural consideration and flow of data wit
 - Include constraints such as performance considerations or affected components
 - Include ASCII-art or mermaid diagrams where appropriate
 - Include KaTeX math where relevant, with plain-English explanations
+- Lists use `-` as a bullet point
 
 ## Implementation guide
 
@@ -76,6 +78,8 @@ If a feature is considered complete then indicate with a ***COMPLETE*** prefix.
 
 > Details of missing implementation / link to phase with missing implementation
 ```
+
+- Lists use `-` as a bullet point
 
 ### Phase N
 
@@ -114,6 +118,8 @@ If a phase is considered complete then indicate with a ***COMPLETE*** prefix.
 
 > Details of missing implementation / link to phase with missing implementation
 ```
+
+- Lists use `-` as a bullet point
 
 #### Examples
 

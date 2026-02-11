@@ -53,6 +53,8 @@ In discovery
 | Bucket                     | A decentralised list of mod “manifests” (metadata) hosted in a public repository, used by the mod manager to discover mods.                                                               | (Analogy to Scoop buckets; exact design is TBD)               |
 | Decentralised mod registry | A mod discovery mechanism that does not rely on a single central service; users can opt into one or more registries (“buckets”).                                                          | (Project convention; design TBD)                              |
 | Mod                        | A package that changes or adds game content or behaviour. The supported scope (data only, scripts, assets, and so on) must be explicitly defined in the PRD.                              | (Project convention)                                          |
+| Manifest                   | A mod package manifest (typically JSON) containing metadata about the mod (id, name, version), a list of resources, declared dependencies, and load-order hints.                           | (Phase 2: mod manifest format)                                |
+| SemVer                     | Semantic Versioning scheme used for mods and mod APIs; breaking changes require a major version increment and compatibility rules must be followed.                                      | <https://semver.org/>                                         |
 | Mod manager                | In-game tooling to install, update, enable, and disable mods, and to resolve mod dependencies and conflicts.                                                                              | (Project convention; inspired by Factorio’s mod manager)      |
 | MVP                        | Minimum viable product: the smallest coherent version that can be shipped to players and provide a complete “core loop”.                                                                  | <https://en.wikipedia.org/wiki/Minimum_viable_product>        |
 | Opt-in                     | A user choice that is disabled by default and must be explicitly enabled by the player.                                                                                                   | <https://en.wikipedia.org/wiki/Opt-in_email>                  |
@@ -159,12 +161,21 @@ Define modding as a first-class product feature, including an opt-in, decentrali
 Document (at minimum):
 
 - What a "mod" can change (data only vs scripting vs assets) (TBD)
+  - A mod can be a collection of art resources with metadata (such as new units with art and stats) or a
+    .NET assembly referencing the mod SDK with full logical capability.
 - Mod package and manifest format (TBD)
+  - A json manifest containing basic metadata and a list of mod resources
 - Dependency management and version compatibility rules (TBD)
+  - SemVer, with breaking changes mandating a major version change
 - Load order and conflict resolution strategy (TBD)
 - Safety and trust model (TBD)
+  - Investigate sandbox models in .NET
 - Base mod packaging and update strategy (placeholder)
+  - Base mod included with the game, updated in tandem with the game
 - In-game mod manager UX requirements (placeholder)
+  - Manage source repositories
+  - A repository
+  - List and install mods from registered repositories
 - Decentralised registry ("bucket") design constraints and integrity checks (placeholder)
 
 #### 6.3.3. Phase requirements
@@ -264,14 +275,14 @@ Review checklist:
 - Modding scope is explicit and not ambiguous.
 - Diagnostics requirements are explicit for MVP.
 
-## 7. <a name='Seealso'></a>See also
+## 7. See also
 
 - `docs/plans/4x-game.md` (system-level plans)
 - `docs/plans/4x-game/systems/` (gameplay systems)
 - `docs/plans/4x-game/technical/` (technical systems)
 - `docs/templates/plan-template.md` (documentation template)
 
-## 8. <a name='References'></a>References
+## 8. References
 
 - MVP: <https://en.wikipedia.org/wiki/Minimum_viable_product>
 - Telemetry: <https://en.wikipedia.org/wiki/Telemetry>
