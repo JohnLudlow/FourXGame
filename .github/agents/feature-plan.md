@@ -1,7 +1,7 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
 name: FeaturePlanner
-tools: ['read', 'search', 'edit', 'todo', 'execute/runInTerminal']
+tools: ['execute/testFailure', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/getNotebookSummary', 'read/problems', 'read/readFile', 'read/readNotebookCellOutput', 'read/terminalSelection', 'read/terminalLastCommand', 'edit/createDirectory', 'edit/createFile', 'edit/createJupyterNotebook', 'edit/editFiles', 'edit/editNotebook', 'search/changes', 'search/codebase', 'search/fileSearch', 'search/listDirectory', 'search/searchResults', 'search/textSearch', 'search/usages', 'vijaynirmal.context7-mcp-relay/context7_resolve-library-id', 'vijaynirmal.context7-mcp-relay/context7_get-library-docs', 'todo']
 ---
 # Planning instructions
 
