@@ -85,6 +85,8 @@ If a feature is considered complete then indicate with a ***COMPLETE*** prefix.
 
 ***Phase status***
 
+If this Phase is a child feature with its own document, link and summarize here.
+
 #### Objective
 
 Paragraph description of objective.
@@ -100,6 +102,9 @@ Include technical details, diagrams, and deeper explanation of what this element
 #### Phase requirements
 
 A list of phase-level requirements in Given/When/Then syntax.
+
+If a phase is impacted by a child feature (such as being partially implemented by that child feature),
+link and summarize that child feature andits relation to this feature here.
 
 If a phase is considered complete then indicate with a ***COMPLETE*** prefix.
 

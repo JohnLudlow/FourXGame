@@ -22,16 +22,16 @@ This child feature describes the Game Operations capability for modding: the end
 
 ## Definition of Terms
 
-| Term | Meaning | Reference |
-| ---- | ------- | --------- |
-| Base mod | The bundled core-content mod shipped with the game that provides default assets and rules. | (Project convention) |
-| Dependency resolution | Algorithm to compute mod load order and handle required/optional dependencies and version constraints. | (Project convention) |
-| Manifest | A JSON file included in a mod package describing `id`, `name`, `version`, `publisher`, `dependencies`, `files`, and load-order hints. | (Phase 2: manifest spec) |
-| Mod | A packaged change to game content or behaviour. Can be data-only (JSON/YAML/assets) or a compiled .NET assembly that uses the Mod SDK. | (Project convention) |
-| Mod SDK | The developer-facing API and libraries that enable mods to integrate with the game engine safely and consistently. | (Project convention) |
-| Registry / Bucket | A decentralised list of mod manifests (a repository URL or index) that the Mod Manager can query to discover mods. | (Project convention) |
-| Sandbox | Runtime isolation strategy (process, AppDomain, assembly load context with restricted permissions, or other) to limit unsafe mod behaviour. | (Project convention) |
-| SemVer | Semantic Versioning rules (MAJOR.MINOR.PATCH) used for mod versions and mod-API compatibility. | <https://semver.org/> |
+| Term                  | Meaning                                                                                                                                     | Reference                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| Base mod              | The bundled core-content mod shipped with the game that provides default assets and rules.                                                  | (Project convention)     |
+| Dependency resolution | Algorithm to compute mod load order and handle required/optional dependencies and version constraints.                                      | (Project convention)     |
+| Manifest              | A JSON file included in a mod package describing `id`, `name`, `version`, `publisher`, `dependencies`, `files`, and load-order hints.       | (Phase 2: manifest spec) |
+| Mod                   | A packaged change to game content or behaviour. Can be data-only (JSON/YAML/assets) or a compiled .NET assembly that uses the Mod SDK.      | (Project convention)     |
+| Mod SDK               | The developer-facing API and libraries that enable mods to integrate with the game engine safely and consistently.                          | (Project convention)     |
+| Registry / Bucket     | A decentralised list of mod manifests (a repository URL or index) that the Mod Manager can query to discover mods.                          | (Project convention)     |
+| Sandbox               | Runtime isolation strategy (process, AppDomain, assembly load context with restricted permissions, or other) to limit unsafe mod behaviour. | (Project convention)     |
+| SemVer                | Semantic Versioning rules (MAJOR.MINOR.PATCH) used for mod versions and mod-API compatibility.                                              | <https://semver.org/>    |
 
 ## Requirements
 
