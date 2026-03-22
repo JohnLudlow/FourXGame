@@ -13,7 +13,7 @@ This is the broad plan for the development of the 4x Game project.
   - [Mapping system](./4x-game/systems/mapping.md)
     - [Pathfinding and navigation](./4x-game/systems/mapping/pathfinding.md)
   - [Characters system](./4x-game/systems/characters.md)
-    - [AI, character motivations and character needs](./4x-game/systems/character-ai/characters.md)
+    - [AI, character motivations and character needs](./4x-game/systems/characters/character-ai.md)
   - [Factions system](./4x-game/systems/factions.md)
   - [Combat and battle system](./4x-game/systems/combat.md)
   - [Resource system](./4x-game/systems/resources.md)
@@ -27,7 +27,7 @@ This is the broad plan for the development of the 4x Game project.
 - Technical Systems
   - [Performance monitoring](./4x-game/technical/performance.md)
   - [Engine selection](./4x-game/technical/engine-selection.md)
-  - [Engine decoupling](./4x-game/technical/engine-decoupling.md)
+  - [Engine decoupling](./4x-game/technical/engine-decoupling/engine-decoupling.md)
   - [Platform support](./4x-game/technical/platform.md)
   - [Diagnostics](./4x-game/technical/diagnostics.md)
 
@@ -176,7 +176,7 @@ This section will also contain links to related/sibling plans by topic and paren
   - [Mapping system](./4x-game/systems/mapping.md)
     - [Pathfinding and navigation](./4x-game/systems/mapping/pathfinding.md)
   - [Characters system](./4x-game/systems/characters.md)
-    - [AI, character motivations and character needs](./4x-game/systems/character-ai/characters.md)
+    - [AI, character motivations and character needs](./4x-game/systems/characters/character-ai.md)
   - [Factions system](./4x-game/systems/factions.md)
   - [Combat and battle system](./4x-game/systems/combat.md)
   - [Resource system](./4x-game/systems/resources.md)
@@ -190,7 +190,7 @@ This section will also contain links to related/sibling plans by topic and paren
 - Technical Systems
   - [Performance monitoring](./4x-game/technical/performance.md)
   - [Engine selection](./4x-game/technical/engine-selection.md)
-  - [Engine decoupling](./4x-game/technical/engine-decoupling.md)
+  - [Engine decoupling](./4x-game/technical/engine-decoupling/engine-decoupling.md)
   - [Platform support](./4x-game/technical/platform.md)
   - [Diagnostics](./4x-game/technical/diagnostics.md)
 

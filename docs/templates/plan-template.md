@@ -104,9 +104,11 @@ Include technical details, diagrams, and deeper explanation of what this element
 A list of phase-level requirements in Given/When/Then syntax.
 
 If a phase is impacted by a child feature (such as being partially implemented by that child feature),
-link and summarize that child feature andits relation to this feature here.
+link and summarize that child feature and its relation to this feature here.
 
 If a phase is considered complete then indicate with a ***COMPLETE*** prefix.
+
+*NOTE* This is an *example* of a requirement. Do not include the code fences
 
 ```markdown
 - (***requirement status***) Requirement descriptive text
@@ -163,6 +165,9 @@ This section will contain a table of contents with links to those child plans
 This structure is repeated as deep as is needed.
 
 This section will also contain links to related/sibling plans by topic and parent plans by structure.
+
+Links will be formatted as correctly formatted Markdown links. Short links will use the inline style,
+while longer (more than 30 characters) links will use the reference style.
 
 ## References
 

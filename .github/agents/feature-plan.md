@@ -1,33 +1,7 @@
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
 name: FeaturePlanner
-tools: [
-  execute/testFailure, 
-  execute/getTerminalOutput, 
-  execute/runInTerminal, 
-  
-  read/getNotebookSummary, 
-  read/problems, 
-  read/readFile, 
-  read/terminalSelection, 
-  read/terminalLastCommand, 
-  
-  edit/createDirectory, 
-  edit/createFile, 
-  edit/createJupyterNotebook, 
-  edit/editFiles, 
-  edit/editNotebook, 
-  
-  search/changes, 
-  search/codebase, 
-  search/fileSearch, 
-  search/listDirectory, 
-  search/searchResults, 
-  search/textSearch, 
-  search/usages, 
-
-  todo
-]
+tools: [execute/getTerminalOutput, execute/runInTerminal, execute/testFailure, read/terminalSelection, read/terminalLastCommand, read/getNotebookSummary, read/problems, read/readFile, edit/createDirectory, edit/createFile, edit/createJupyterNotebook, edit/editFiles, edit/editNotebook, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/searchResults, search/textSearch, search/usages, vscode.mermaid-chat-features/renderMermaidDiagram, mermaidchart.vscode-mermaid-chart/get_syntax_docs, mermaidchart.vscode-mermaid-chart/mermaid-diagram-validator, mermaidchart.vscode-mermaid-chart/mermaid-diagram-preview, todo]
 ---
 # Planning instructions
 
