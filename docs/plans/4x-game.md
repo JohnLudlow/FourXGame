@@ -1,28 +1,41 @@
-﻿# Feature Title
+﻿# 4x Game
 
 ## Overview
 
-Detailed description of the feature including purpose and intent as well as intended use cases
+This is the broad plan for the development of the 4x Game project.
 
 ## Table of contents
 
-- Table of contents with links to child sections, including subsections and child documents (which will be in a folder matching the feature document name).
-- Lists use `-` as a bullet point
+- [Product requirements (PRD scaffold)](./4x-game-prd.md)
+
+- Gameplay Systems
+  - [Onboarding and tutorial system](./4x-game/systems/onboarding.md)
+  - [Mapping system](./4x-game/systems/mapping.md)
+    - [Pathfinding and navigation](./4x-game/systems/mapping/pathfinding.md)
+  - [Characters system](./4x-game/systems/characters.md)
+    - [AI, character motivations and character needs](./4x-game/systems/characters/character-ai.md)
+  - [Factions system](./4x-game/systems/factions.md)
+  - [Combat and battle system](./4x-game/systems/combat.md)
+  - [Resource system](./4x-game/systems/resources.md)
+
+- Game Operation
+  - [Saving, autosaves, and game management](./4x-game/technical/saving.md)
+  - [Graphics and camera viewpoint](./4x-game/technical/graphics.md)
+  - [Audio and music](./4x-game/technical/audio.md)
+  - [Controls](./4x-game/technical/controls.md)
+
+- Technical Systems
+  - [Performance monitoring](./4x-game/technical/performance.md)
+  - [Engine selection](./4x-game/technical/engine-selection.md)
+  - [Engine decoupling](./4x-game/technical/engine-decoupling/engine-decoupling.md)
+  - [Platform support](./4x-game/technical/platform.md)
+  - [Diagnostics](./4x-game/technical/diagnostics.md)
 
 ## Feature status
 
-An indication of current status.
+Not started
 
-- Not started
-- In discovery
-- In design
-- In development
-- In test
-- In review
-- Completed
-- Abandoned
-- Blocked
-
+> Allowed statuses: Not started, In discovery, In design, In development, In test, In review, Completed, Abandoned, Blocked — update this field to the current status for tracking.
 May also include additional information such as reason for the feature being blocked.
 
 If the feature is composed of multiple parts and some are implemented, list the components and their status.
@@ -31,10 +44,12 @@ If the feature is composed of multiple parts and some are implemented, list the 
 
 Detailed table (sorted alphabetically by the term) of terms not considered 'common english'. Include references to articles about the term.
 
-| Term | Meaning | Reference |
-| ---- | ------- | --------- |
-|      |         |           |
-|      |         |           |
+| Term | Meaning                                                             | Reference                          |
+| ---- | ------------------------------------------------------------------- | ---------------------------------- |
+| 4x   | Explore, Expand, Exploit, Exterminate. A subgenre of strategy games | [4x article on Wikipedia][4x-wiki] |
+|      |                                                                     |                                    |
+
+[4x-wiki]: https://en.wikipedia.org/wiki/4X#Real-time_hybrid_4X
 
 ## Architectural considerations and constraints
 
@@ -43,7 +58,6 @@ Detailed model of the feature's architectural consideration and flow of data wit
 - Include constraints such as performance considerations or affected components
 - Include ASCII-art or mermaid diagrams where appropriate
 - Include KaTeX math where relevant, with plain-English explanations
-- Lists use `-` as a bullet point
 
 ## Implementation guide
 
@@ -79,13 +93,9 @@ If a feature is considered complete then indicate with a ***COMPLETE*** prefix.
 > Details of missing implementation / link to phase with missing implementation
 ```
 
-- Lists use `-` as a bullet point
-
 ### Phase N
 
 ***Phase status***
-
-If this Phase is a child feature with its own document, link and summarize here.
 
 #### Objective
 
@@ -103,12 +113,7 @@ Include technical details, diagrams, and deeper explanation of what this element
 
 A list of phase-level requirements in Given/When/Then syntax.
 
-If a phase is impacted by a child feature (such as being partially implemented by that child feature),
-link and summarize that child feature and its relation to this feature here.
-
 If a phase is considered complete then indicate with a ***COMPLETE*** prefix.
-
-*NOTE* This is an *example* of a requirement. Do not include the code fences
 
 ```markdown
 - (***requirement status***) Requirement descriptive text
@@ -125,8 +130,6 @@ If a phase is considered complete then indicate with a ***COMPLETE*** prefix.
 
 > Details of missing implementation / link to phase with missing implementation
 ```
-
-- Lists use `-` as a bullet point
 
 #### Examples
 
@@ -152,6 +155,8 @@ public int SelectNextCell(/* params */)
 
 ## See also
 
+- [Product requirements (PRD scaffold)](./4x-game-prd.md)
+
 For large plans that are split across multiple files, a list of links to those files.
 
 These will be in a well-ordered file structure:
@@ -166,8 +171,28 @@ This structure is repeated as deep as is needed.
 
 This section will also contain links to related/sibling plans by topic and parent plans by structure.
 
-Links will be formatted as correctly formatted Markdown links. Short links will use the inline style,
-while longer (more than 30 characters) links will use the reference style.
+- Gameplay Systems
+  - [Onboarding and tutorial system](./4x-game/systems/onboarding.md)
+  - [Mapping system](./4x-game/systems/mapping.md)
+    - [Pathfinding and navigation](./4x-game/systems/mapping/pathfinding.md)
+  - [Characters system](./4x-game/systems/characters.md)
+    - [AI, character motivations and character needs](./4x-game/systems/characters/character-ai.md)
+  - [Factions system](./4x-game/systems/factions.md)
+  - [Combat and battle system](./4x-game/systems/combat.md)
+  - [Resource system](./4x-game/systems/resources.md)
+
+- Game Operation
+  - [Saving, autosaves, and game management](./4x-game/technical/saving.md)
+  - [Graphics and camera viewpoint](./4x-game/technical/graphics.md)
+  - [Audio and music](./4x-game/technical/audio.md)
+  - [Controls](./4x-game/technical/audio.md)
+
+- Technical Systems
+  - [Performance monitoring](./4x-game/technical/performance.md)
+  - [Engine selection](./4x-game/technical/engine-selection.md)
+  - [Engine decoupling](./4x-game/technical/engine-decoupling/engine-decoupling.md)
+  - [Platform support](./4x-game/technical/platform.md)
+  - [Diagnostics](./4x-game/technical/diagnostics.md)
 
 ## References
 
